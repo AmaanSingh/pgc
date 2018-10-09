@@ -57,5 +57,6 @@ def fight(Php, Patk, Pdef1, Mhp, Matk, Mdef1, enemy, canrun):
     
 #example fight: fight(Php, Patk, Pdef1, 20, 5, 2, Giant Spider, 1)
 
+#Delete code below to create own fights, this is just an example
 fight(30, 10, 2, 20, 5, 2, "Giant Spider", 1)
 
