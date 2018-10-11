@@ -37,7 +37,7 @@ def fight(Player, Monster):
         break
       if option == "2":
         print("Attempting to run")
-        if canrun == 1:
+        if canrun == "yes":
           run = random.randint(0,3)
           if run == 3:
             print("sucess!")
@@ -45,6 +45,8 @@ def fight(Player, Monster):
           else:
             print("failure!")
             break
+        else:
+          print("Can't run!")
             
     #monster attack:
     if Mhp > 0:
@@ -61,26 +63,45 @@ def fight(Player, Monster):
     print("You win the battle!")
     return 2
     
-def CharacterCreate():
-  Pname = input("Welcome to character creation! To get started, what would you like to be called?")
-
-    
-#example fight: fight(Php, Patk, Pdef, 20, 5, 2, Giant Spider, 1)
-
-#Delete code below to create own fights, this is just an example
+#Example of monster definition and fight
 
 Giant_Spider = {
   "hp" : 20,
   "atk" : 5,
   "def" :  2,
   "name" : "Giant Spider",
-  "canrun" : 1, }
+  "canrun" : "yes",
+   }
 
 Player = {
   "hp" : 30,
   "atk" : 10,
   "def" : 4,
 }
+
+'''
+standardized enemy:
+Enemy_Name = {
+  "hp" : [number],
+  "atk" : [number],
+  "def" : [number],
+  "name" : [name],
+  "canrun" : ["yes" or "no"]
+
+
+
+}
+
+
+
+
+'''
+
+
+
+
+
+
 
 fight(Player, Giant_Spider)
 
