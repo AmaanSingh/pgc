@@ -37,7 +37,7 @@ def fight(Player, Monster):
         break
       if option == "2":
         print("Attempting to run")
-        if canrun == 1:
+        if canrun == "yes":
           run = random.randint(0,3)
           if run == 3:
             print("sucess!")
@@ -45,6 +45,8 @@ def fight(Player, Monster):
           else:
             print("failure!")
             break
+        else:
+          print("Can't run!")
             
     #monster attack:
     if Mhp > 0:
@@ -74,13 +76,35 @@ Giant_Spider = {
   "atk" : 5,
   "def" :  2,
   "name" : "Giant Spider",
-  "canrun" : 1, }
+  "canrun" : "yes",
+   }
 
 Player = {
   "hp" : 30,
   "atk" : 10,
   "def" : 4,
 }
+
+'''
+standardized enemy:
+(copy and paste the code below, then replace as necessary)
+
+Enemy_Name = {
+  "hp" : [number],
+  "atk" : [number],
+  "def" : [number],
+  "name" : [name],
+  "canrun" : ["yes" or "no"],
+}
+
+'''
+
+
+
+
+
+
+
 
 fight(Player, Giant_Spider)
 
