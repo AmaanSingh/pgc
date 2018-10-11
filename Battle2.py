@@ -41,7 +41,7 @@ def fight(Player, Monster):
           run = random.randint(0,3)
           if run == 3:
             print("sucess!")
-            return 2
+            return 2, Php
           else:
             print("failure!")
             break
@@ -58,10 +58,10 @@ def fight(Player, Monster):
         print("HP: %d" % Php)
   if Php <= 0:
     print ("You died! Game over.")
-    return game_over()
+    return game_over(), Php
   if Mhp <= 0:
     print("You win the battle!")
-    return 2
+    return 2, Php
     
 def CharacterCreate():
   Pname = input("Welcome to character creation! To get started, what would you like to be called?")
@@ -87,7 +87,6 @@ Player = {
 
 '''
 standardized enemy:
-(copy and paste the code below, then replace as necessary)
 
 Enemy_Name = {
   "hp" : [number],
@@ -97,16 +96,15 @@ Enemy_Name = {
   "canrun" : ["yes" or "no"],
 }
 
+standardized fight:
+
+placeholder, Player["hp"] = fight(Player, Enemy_Name)
+
 '''
 
 
+placeholder, Player["hp"] = fight(Player, Giant_Spider)
 
-
-
-
-
-
-fight(Player, Giant_Spider)
 
 
 
