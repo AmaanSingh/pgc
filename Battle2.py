@@ -47,7 +47,8 @@ def fight(Player, Monster):
             break
         else:
           print("Can't run!")
-            
+      else:
+        print("Please enter 1 or 2!")
     #monster attack:
     if Mhp > 0:
         print("The %s attacks" % enemy)
@@ -88,7 +89,9 @@ Player = {
 '''
 standardized enemy:
 
-Enemy_Name = {
+replace stuff in brackets ([]) 
+
+[Enemy_Name] = {
   "hp" : [number],
   "atk" : [number],
   "def" : [number],
@@ -98,7 +101,9 @@ Enemy_Name = {
 
 standardized fight:
 
-placeholder, Player["hp"] = fight(Player, Enemy_Name)
+replace stuff in brackets ([]) EXCEPT THE PART THAT SAYS "Player["hp"]
+
+placeholder, Player["hp"] = fight(Player, [Enemy_Name])
 
 '''
 
