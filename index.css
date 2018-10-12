@@ -41,6 +41,11 @@ ul li a:hover {
 ul li a.active {
 	border-bottom: 2px solid #FFFA00;
 }
+#position{
+	position: absolute;
+	top: 80%;
+	left: 40%;
+}
 
 .logo img {
 	float: left;
