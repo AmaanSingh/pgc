@@ -7,7 +7,6 @@
 #main{
 	width: 100%;
 	height: 100vh;
-	overflow-x: hidden;
 	background-image: linear-gradient(to right, #3b65b9, #444b8b, #3d3460, #2d213a, #180f1a);
 }
 
@@ -129,7 +128,7 @@ transform: translate(2%, 40%);
 	top: 50%;
 	left: 40%;
 }
-#game{
+.game{
 	position: absolute;
 	top: 55%;
 	left: 26%;
@@ -146,13 +145,14 @@ transform: translate(2%, 40%);
 	display: flex;
 	flex-wrap: wrap;
 	position: absolute;
-	left: 5%;
+	top: 15%;
+	left: 2%
 }
 
 .container > div {
-	background-color: #FF8000;
+	background-color: black;
 	font-size: 20px;
-	margin: 20px;
+	margin: 30px;
 	padding: 20px;
 	width:200px;
 	border-radius: 7px;
@@ -163,10 +163,10 @@ transform: translate(2%, 40%);
 	color: white;
 }
 .container > div:hover {
-	background-color:#FFFA00;
-	transition: 0.5s ease
-}
-.container > div a:hover {
-	color: black;
-	transition: 0.5s ease
+	background-color:#0007;
+	transition: 0.5s ease;
+	width:250px;
+
+
+
 }
