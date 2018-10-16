@@ -164,9 +164,9 @@ transform: translate(2%, 40%);
 }
 .container > div:hover {
 	background-color:#FFFA00;
-	transition: 0.5s ease
-}
-.container > div a:hover {
+	transition: 0.5s ease;
 	color: black;
-	transition: 0.5s ease
+}
+.container:hover {
+
 }
