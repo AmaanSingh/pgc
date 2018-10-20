@@ -6,14 +6,15 @@
 
 #main{
 	width: 100%;
-	height: 100vh;
-	background-image: linear-gradient(to right, #3b65b9, #444b8b, #3d3460, #2d213a, #180f1a);
+	height: 200vh;
+	background-color: black;
+
 }
 
 nav{
 	width: 100%;
-	height: 100px;
-	background: #0007;
+	height: 80px;
+	background: white;
 }
 
 ul {
@@ -29,13 +30,15 @@ ul li {
 
 ul li a {
 	text-decoration: none;
-	color: #FF8000;
+	color: #323648;
+	font-weight: 100;
 	padding: 5px 0.2px;
-	transition: 0.5s ease;
+	transition: 0.1s ease;
 }
 
 ul li a:hover {
-	color: #FFFA00;
+	color: black;
+	font-weight: 700;
 }
 
 ul li a.active {
