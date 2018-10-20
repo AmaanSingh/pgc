@@ -1,7 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: Century Gothic, Questria, Didact Gothic,Futura PT;
+	font-family: Slack-Averta, apple Logo, sans-serif;
 }
 
 #main{
@@ -13,39 +13,39 @@
 
 nav{
 	width: 100%;
-	height: 80px;
+	height: 70px;
 	background: white;
 }
 
 ul {
-	float: right;
+	float: left;
 	list-style-type: none;
-	margin-top: 40px;
+	margin-top: 23px;
+	margin-left: 24%;
 }
+
 
 ul li {
 	display: inline-block;
 	margin-right: 40px;
 }
 
+
 ul li a {
 	text-decoration: none;
 	color: #323648;
-	font-weight: 100;
+	font-weight: 400;
 	padding: 5px 0.2px;
 	transition: 0.1s ease;
 }
 
 ul li a:hover {
 	color: black;
-	font-weight: 700;
+	font-weight: 600;
 }
 
-ul li a.active {
-	border-bottom: 2px solid #FFFA00;
-}
 #position{
-	position: absolute;
+	position: fixed;
 	top: 80%;
 	left: 40%;
 }
@@ -53,10 +53,9 @@ ul li a.active {
 .logo img {
 	float: left;
 	position: absolute;
-	top: 5px;
-	left: 2%;
-	width: 100px;
-	height: 50;
+	top: .5%;
+	left: 5%;
+	width: 6%;
 
 }
 
@@ -68,31 +67,30 @@ ul li a.active {
 }
 
 .title h1{
-	color: #FF8000;
+	color: #4d394b;
 	font-size: 75px;
 	font-weight: 100;
 	letter-spacing: -1px;
+	font-family: Slack-Tiempos,"Times New Roman",Georgia,serif;
 }
 
 .title p{
-	color: white;
+	color: #323648;
 	font-size: 18px;
 	text-align: center;
 }
 
 .Sign{
 	position: absolute;
-	top: 20px;
-	left: 12%;
+	top: 1%;
+	left: 13%;
 }
 
 .Sign h1{
-	color: #FFFA00;
-	font-weight: 400;
-}
-
-.Sign p{
-	color:#FF8000;
+	font-family: Slack-Tiempos,"Times New Roman",Georgia,serif;
+	color: #323648;
+	font-weight: bold;
+	font-size: 45px;
 }
 
 .Info{
@@ -100,18 +98,19 @@ ul li a.active {
 }
 
 .Info h1{
-	color: #FF8000;
-	font-weight: 100;
+	color: #323648;
+	font-weight: 500;
 	font-size: 50px;
 	transform: translate(0%,20%);
 }
 
 .Info p{
-	color:white;
+	color: #5b5e6d;
 font-weight: 100;
 font-size: 17px;
 width: 95%;
 transform: translate(2%, 40%);
+font-weight: 400;
 
 }
 
@@ -144,32 +143,22 @@ transform: translate(2%, 40%);
 	color: white;
 	font-size: 25px;
 }
-.block{
-	display: flex;
-	flex-wrap: wrap;
-	left: 5%;
-}
-button{
-	background-color: black;
-	font-size: 20px;
-	margin: 40px;
-	padding: 20px;
-	width: 200px;
-	height: 200px;
+.navy{
+	float: right;
+	margin-right: 45px;
+	margin-top: 8px;
 	border-radius: 7px;
-	color: white;
-	border-color: #FF8000;
+	cursor: pointer;
+	padding: 8px 15px;
+	border:2px solid;
+	background-color: #FF3427;
+	border-color: white;
+	font-weight: 400;
+
 }
-.block button a{
+.navy a{
+	color: white;
 	text-decoration: none;
-	color: white;
-}
-.block button:hover {
-	background-color:#0007;
-	transition: 1s ease;
-	width:220px;
-	height:220px;
-}
-.block button:hover a{
-	color: #FFFA00;
+	font-size: 25px;
+
 }
