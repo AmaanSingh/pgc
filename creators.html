@@ -13,12 +13,25 @@
 <div class = "logo">
 	<img src = "logo.png">
 		<ul>
+			<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 			<li><a href ="index.html">HOME</a></li>
 			<li><a href ="projects.html">PROJECTS</a></li>
 			<li><a href ="contact.html">CONTACT</a></li>
 			<li><a href ="creators.html">CREATORS</a></li>
+			<button class = "navy"><a href ="index.html"> Contact Us</a></button>
 		</ul>
-	<button class = "navy"><a href ="index.html"> Contact Us</a></button>
+</div>
+<span class = "hamburger" style="font-size:30px;cursor:pointer;position:absolute;top:1%;right:10%;" onclick="openNav()">&#9776;</span>
+<script>
+function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 	</nav>
 <div class = "Sign">
 	<h1> PGC</h1>

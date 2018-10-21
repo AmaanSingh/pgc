@@ -19,13 +19,25 @@
 	<img src = "logo.png">
 </div>
 		<ul>
+			<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 			<li><a href ="index.html">HOME</a></li>
-			<li><a class ="active" href ="projects.html">PROJECTS</a></li>
+			<li><a href ="projects.html">PROJECTS</a></li>
 			<li><a href ="contact.html">CONTACT</a></li>
 			<li><a href ="creators.html">CREATORS</a></li>
+			<button class = "navy"><a href ="index.html"> Contact Us</a></button>
 		</ul>
-		</div>
-		<button class = "navy"><a href ="index.html"> Contact Us</a></button>
+</div>
+<span class = "hamburger" style="font-size:30px;cursor:pointer;position:absolute;top:1%;right:10%;" onclick="openNav()">&#9776;</span>
+<script>
+function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 	</nav>
 <div class = "game">
   <iframe height="250px" width="40%" src="https://repl.it/@rompy1/RPS?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
