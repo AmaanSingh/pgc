@@ -1,143 +1,20 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: "Old Standard TT";
+	font-family: bungee, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: 1px;
 }
 #main{
 	width: 100%;
 	height: 200vh;
 	background-image: linear-gradient(to right, #a63a3a, #983536, #8a3032, #7c2c2d, #6f2729);
+	border-color: white;
 
 }
-
-
-
-@media(max-width: 600px) {
-
-	.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-		top: 0;
-		left: 0;
-    z-index: 1;
-    background-color: #FF3427;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-	}
-
-	.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-    display: block;
-    transition: 0.3s;
-		font: OlD
-	}
-
-	.sidenav a:hover {
-    color: white;
-		font-weight: 600;
-	}
-
-	.sidenav .closebtn {
-    position: absolute;
-    top: 0%;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-		.title {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-		}
-	}
-	.title {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-	}
-
-	.title h1{
-			color: #1F1F1F;
-			font-size: 50px;
-			font-weight: 600;
-			letter-spacing: -1px;
-
-	}
-
-	.title p{
-			color: #1F1F1F;
-			font-size: 18px;
-			text-align: center;
-			letter-spacing: .5px;
-			font: "Old Standard TT";
-	}
-
-	nav{
-			width: 100%;
-			height: 80px;
-			background: white;
-	}
-
-	ul {
-			float: left;
-			list-style-type: none;
-			margin-top: 23px;
-			margin-left: 24%;
-	}
-
-
-	ul li {
-			display: inline-block;
-			margin-right: 40px;
-	}
-
-
-	ul li a {
-			text-decoration: none;
-			color: #323648;
-			font-weight:500;
-			padding: 5px 0.2px;
-			transition: 0.2s ease;
-	}
-
-	.logo img {
-			float: left;
-			position: absolute;
-			top: 1%;
-			left: 5%;
-			width: 12%;
-			padding: 4px 0px;
-
-	}
-	.Sign{
-			position: absolute;
-			top: 1%;
-			left: 20%;
-	}
-
-	.Sign h1{
-			font-family: Slack-Tiempos,"Times New Roman",Georgia,serif;
-			color: #323648;
-			font-weight: bold;
-			font-size: 45px;
-	}
-
-}
-
 
 @media (min-width: 620px) {
-	.sidenav .closebtn{
-		display: none;
-	}
-	.hamburger{
-		display: none;
-	}
 	nav{
 		width: 100%;
 		height: 70px;
@@ -146,10 +23,10 @@
 ul {
 	float: left;
 	list-style-type: none;
-	margin-top: 23px;
+	margin-top: 15px;
 	margin-left: 24%;
-}
 
+}
 
 ul li {
 	display: inline-block;
@@ -160,14 +37,14 @@ ul li {
 ul li a {
 	text-decoration: none;
 	color: #323648;
-	font-weight:500;
 	padding: 5px 0.2px;
 	transition: 0.2s ease;
 }
 
+
 ul li a:hover {
 	color: black;
-	font-weight:600;
+	font-weight: 600;
 }
 
 #position{
@@ -187,7 +64,7 @@ ul li a:hover {
 
 .title {
 	position: absolute;
-	top: 50%;
+	top: 60%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
@@ -196,34 +73,81 @@ ul li a:hover {
 	color: #1F1F1F;
 	font-size: 75px;
 	font-weight: 600;
-	letter-spacing: -1px;
+	letter-spacing: 1px;
+	margin-top: -4%;
 
 }
 
 .title p{
+	margin-top: -10%;
 	color: #1F1F1F;
 	font-size: 18px;
 	text-align: center;
 	letter-spacing: .5px;
-	font: "Old Standard TT";
+	font-family: bungee,sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	margin-left: -10%;
 }
 
 .Sign{
 	position: absolute;
-	top: 1%;
+	top: -4%;
 	left: 13%;
 }
 
 .Sign h1{
-	font-family: Slack-Tiempos,"Times New Roman",Georgia,serif;
 	color: #1F1F1F;
 	font-weight: bold;
 	font-size: 45px;
 }
-.below{
-	color: white;
+#below{
+	color: #1F1F1F;
 	position: absolute;
-	top: 120%;
+	top: 110%;
+	background-color: black;
+	width: 100%;
+	font-weight: 500;
+
+}
+.words{
+	text-align: center;
+	background-color: black;
+
+}
+.words h1{
+font-size: 60px;
+}
+.words p{
+	font-size: 18px;
+	font-family: bungee,sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+.paragraphs{
+	float: left;
+	margin-top: 20px;
+	font-weight: 400;
+	background-color: black;
+
+}
+.paragraphs h1{
+	margin-left: 15%;
+	margin-right: 80%;
+}
+.paragraphs p{
+	margin-left: 10%;
+	margin-top: 10px;
+	margin-right: 60%;
+	font-family: bungee,sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+.paragraphs img{
+	margin-left: 18%;
+	margin-top: 10px;
+	margin-right: 60%;
+	width: 100px;
 
 }
 
@@ -234,14 +158,6 @@ ul li a:hover {
 	position: absolute;
 	top: 200%;
 }
-
-
-
-
-
-
-
-
 
 .Info{
 	text-align: center;
@@ -256,11 +172,12 @@ ul li a:hover {
 
 .Info p{
 	color: #1F1F1F;
-font-weight: 100;
-font-size: 17px;
-width: 95%;
-transform: translate(2%, 40%);
-font-weight: 400;
+	font-size: 17px;
+	width: 95%;
+	transform: translate(2%, 40%);
+	font-family: bungee,sans-serif;
+	font-weight: 500;
+	font-style: normal;
 
 }
 
@@ -299,27 +216,49 @@ font-weight: 400;
 	top: 4.3%;
 	float: right;
 	margin-right: 45px;
-	margin-top: -15px;
+	margin-top: -19px;
 	border-radius: 7px;
 	cursor: pointer;
-	padding: 8px 15px;
+	padding: 4px 10px;
 	border:2px solid;
 	background-color: #FF3427;
 	border-color: white;
-	font-weight: 400;
 	font: sans-serif;
 
 }
 .navy a{
-	font: sans-serif;
+	font-family: bungee,sans-serif;
+	font-weight: 500;
+	font-style: normal;
 	color: white;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 18px;
+
 }
 .navy:hover{
 	background-color: #fc2114;
 
 }
+.block{
+	display: flex;
+	flex-wrap: wrap;
 
-
+}
+.block button{
+	background-color: #1F1F1F;
+	font-size: 18px;
+	margin: 20px;
+	padding: 20px;
+	width: 370px;
+	height: 225px;
+	border-radius: 8px;
+}
+.block button a{
+	text-decoration: none;
+	color: white;
+}
+.block button:hover{
+	background-color: black;
+	transition: .5s ease;
+}
 }
