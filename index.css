@@ -8,7 +8,7 @@
 }
 #main{
 	width: 100%;
-	height: 200vh;
+	height: 400vh;
 	background-image: linear-gradient(to right, #a63a3a, #983536, #8a3032, #7c2c2d, #6f2729);
 	border-color: white;
 
@@ -123,6 +123,7 @@ font-size: 60px;
 	font-family: bungee,sans-serif;
 	font-weight: 500;
 	font-style: normal;
+	padding: 5px;
 }
 .communicate{
 	margin-top: 20px;
@@ -183,13 +184,23 @@ font-size: 60px;
 
 }
 
-
-.middle {
-	background-color: white;
-	width: 100%;
-	height: 100vh;
-	position: absolute;
-	top: 230%;
+.middle img{
+	display: none;
+}
+.middle{
+	top:230vh:
+	background: url("san.jpg") fixed center;
+	background-image: url("san.jpg");
+	background-attachment: fixed;
+	background-position: left bottom;
+	margin-top: 100vh;
+	height: 200vh;
+}
+.middle h1{
+	color: white;
+	position: relative;
+	top: 115vh;
+	left: 30%;
 }
 
 .Info{
