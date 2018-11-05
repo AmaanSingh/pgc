@@ -635,7 +635,8 @@ ul li a:hover {
 	position: absolute;
 	top: 75%;
 	margin-left: 12%;
-	width: 1550px;
+	width: 60%;
+	height: 450px;
 }
 .Battle{
 	text-align: center;
