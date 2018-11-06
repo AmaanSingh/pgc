@@ -203,7 +203,6 @@
 	width: 100%;
 	height: 120vh;
 }
-}
 .middle h1{
 	color: #1F1F1F;
 	font-size: 60px;
@@ -379,8 +378,8 @@
 	transform:scale(1.1);
 	transition: .5s ease;
 }
-
 }
+
 @media (max-width: 1700px) {
 	nav{
 		width: 100%;
