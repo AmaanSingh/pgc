@@ -189,8 +189,6 @@
 		margin-left: 67%;
 		margin-right: 10%;
 		font-size: 16px;
-
-
 }
 
 .middle img{
@@ -257,6 +255,10 @@
 	margin: 15px;
 	right: 5%;
 }
+.footer li a{
+	text-decoration: none;
+	color:#FF3427;
+}
 .footer li img{
 	width: 30px;
 }
@@ -317,12 +319,14 @@
 	position: absolute;
 	top: 55%;
 	left: 10%;
-	width: 1550px;
+	width: 1050px;
 }
 .Battle{
 	text-align: center;
 	position: absolute;
 	top: 20%;
+	margin-left: 5%;
+	margin-right: 5%;
 	color: white;
 	font-size: 25px;
 }
@@ -380,7 +384,7 @@
 }
 }
 
-@media (max-width: 1700px) {
+@media (max-width: 1798px) {
 	nav{
 		width: 100%;
 		height: 70px;
