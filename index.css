@@ -604,13 +604,17 @@ ul li a:hover {
 }
 .footer li{
 	position: relative;
-	top: 30%;
-	left: 50%
+	top: 10px;
 	display:inline-block;
 	list-style-type: none;
+	float: right;
+	margin: 19px;
+	right: 5%;
+}
+.footer li a{
+	position: relative;
 	text-decoration: none;
 	float: right;
-	margin: 15px;
 	right: 5%;
 }
 .footer li img{
