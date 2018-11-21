@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="stylesheet" type="text/css" href="index.css">
-	<?php include('contact_me.php'); ?>
+	<?php include('contactform.php'); ?>
 	<link rel="stylesheet" href="https://use.typekit.net/njb6zth.css">
 	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -78,8 +78,8 @@
     </div>
 <div class = "footer">
 	<div><li><a href = "https://github.com/AmaanSingh"><img src="glyphicons-social-22-github.png"></li></div>
-	<div><li><a href = "contact.html"><img src="glyphicons-social-14-e-mail-envelope.png"></a></li></div>
-	<div><li><a href = "disclaimer.html">Disclaimer</a></li></div>
+	<div><li><a href = "contact.php"><img src="glyphicons-social-14-e-mail-envelope.png"></a></li></div>
+	<div><li><a href = "disclaimer.php">Disclaimer</a></li></div>
 	<div class = "computer"><img src="logo.png"></div>
 	<div class = "jshs"><img src = "jshslogo.png"></div>
 </div>
