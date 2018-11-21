@@ -45,7 +45,7 @@
 <div class = "Sign">
 	<h1> PGC</h1>
 </div>
-<div id="contact" action="<?_SERVER['PHP_SELF']; ?>" method="post">
+<div id="contact" action="contact_me.php" method="post">
   <div class="container">
     <div class="col-md-8">
       <div class="row">
