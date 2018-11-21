@@ -57,10 +57,10 @@
 	<img src = "logo.png">
 </div>
 		<ul>
-			<li><a href ="index.html">HOME</a></li>
-			<li><a href ="projects.html">PROJECTS</a></li>
-			<li><a href ="contact.html">CONTACT</a></li>
-			<button class = "navy"><a href ="index.html"> Contact Us</a></button>
+			<li><a href ="index.php">HOME</a></li>
+			<li><a href ="projects.php">PROJECTS</a></li>
+			<li><a href ="contact.php">CONTACT</a></li>
+			<button class = "navy"><a href ="contact.php"> Contact Us</a></button>
 		</ul>
 </div>
 	</nav>
@@ -82,8 +82,8 @@ I remove postings as soon as i can, usually within 4 days. Keep in mind that i c
 </div>
 <div class = "footer">
 	<div><li><a href = "https://github.com/AmaanSingh"><img src="glyphicons-social-22-github.png"></a></li></div>
-	<div><li><a href = "contact.html"><img src="glyphicons-social-14-e-mail-envelope.png"></a></li></div>
-	<div><li><a href = "disclaimer.html">Disclaimer</a></li></div>
+	<div><li><a href = "contact.php"><img src="glyphicons-social-14-e-mail-envelope.png"></a></li></div>
+	<div><li><a href = "disclaimer.php">Disclaimer</a></li></div>
 	<div class = "computer"><img src="logo.png"></div>
 	<div class = "jshs"><img src = "jshslogo.png"></div>
 
