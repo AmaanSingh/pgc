@@ -23,9 +23,9 @@
 	<img src = "logo.png">
 </div>
 		<ul>
-			<li><a href ="index.html">HOME</a></li>
-			<li><a href ="projects.html">PROJECTS</a></li>
-			<li><a href ="contact.html">CONTACT</a></li>
+			<li><a href ="index.php">HOME</a></li>
+			<li><a href ="projects.php">PROJECTS</a></li>
+			<li><a href ="contact.php">CONTACT</a></li>
 			<button class = "navy"><a href ="https://github.com/AmaanSingh"> Contact Us</a></button>
 		</ul>
 </div>
