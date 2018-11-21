@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="stylesheet" type="text/css" href="index.css">
+	<?php include('contact_me.php'); ?>
 	<link rel="stylesheet" href="https://use.typekit.net/njb6zth.css">
 	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
