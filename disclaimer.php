@@ -57,10 +57,17 @@
 	<img src = "logo.png">
 </div>
 		<ul>
+<<<<<<< HEAD:disclaimer.html
 			<li><a href ="index.html">HOME</a></li>
 			<li><a href ="projects.html">PROJECTS</a></li>
 			<li><a href ="contact.html">CONTACT</a></li>
 			<button class = "navy"><a href ="contact.html"> Contact Us</a></button>
+=======
+			<li><a href ="index.php">HOME</a></li>
+			<li><a href ="projects.php">PROJECTS</a></li>
+			<li><a href ="contact.php">CONTACT</a></li>
+			<button class = "navy"><a href ="contact.php"> Contact Us</a></button>
+>>>>>>> a7550b6babf7e848a731dac0ec8acd3fb29ad50a:disclaimer.php
 		</ul>
 </div>
 	</nav>
@@ -81,9 +88,9 @@ I remove postings as soon as i can, usually within 4 days. Keep in mind that i c
 	<h1> PGC</h1>
 </div>
 <div class = "footer">
-	<div><li><a href = "https://bit.ly/2D9ypI0"><img src="glyphicons-social-22-github.png"></a></li></div>
-	<div><li><a href = "contact.html"><img src="glyphicons-social-14-e-mail-envelope.png"></a></li></div>
-	<div><li><a href = "disclaimer.html">Disclaimer</a></li></div>
+	<div><li><a href = "https://github.com/AmaanSingh"><img src="glyphicons-social-22-github.png"></a></li></div>
+	<div><li><a href = "contact.php"><img src="glyphicons-social-14-e-mail-envelope.png"></a></li></div>
+	<div><li><a href = "disclaimer.php">Disclaimer</a></li></div>
 	<div class = "computer"><img src="logo.png"></div>
 	<div class = "jshs"><img src = "jshslogo.png"></div>
 

@@ -58,26 +58,26 @@
 	<img src = "logo.png">
 </div>
 		<ul>
-			<li><a href ="index.html">HOME</a></li>
-			<li><a href ="projects.html">PROJECTS</a></li>
-			<li><a href ="contact.html">CONTACT</a></li>
-			<button class = "navy"><a href ="index.html"> Contact Us</a></button>
+			<li><a href ="index.php">HOME</a></li>
+			<li><a href ="projects.php">PROJECTS</a></li>
+			<li><a href ="contact.php">CONTACT</a></li>
+			<button class = "navy"><a href ="contact.php"> Contact Us</a></button>
 		</ul>
 </div>
 	</nav>
 <div class = "game">
-  <iframe height="450px" width="123%" src="https://repl.it/@rompy1/RPS?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+  <iframe height="450px" width="123%" src="https://repl.it/@amaansingh160/numberguesserdatabase?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 </div>
 <div class = "Battle">
- <h1> Fun Randomly generated rock, paper, and scissors game </h1>
+ <h1> Number Guesser game by Alex Stavedahl and Amaan Singh</h1>
 </div>
 <div class = "Sign">
 	<h1> PGC</h1>
 </div>
 <div class = "footer">
-	<div><li><a href = "https://bit.ly/2D9ypI0"><img src="glyphicons-social-22-github.png"></li></div>
-	<div><li><a href = "contact.html"><img src="glyphicons-social-14-e-mail-envelope.png"></a></li></div>
-	<div><li><a href = "disclaimer.html">Disclaimer</a></li></div>
+	<div><li><a href = "https://github.com/AmaanSingh"><img src="glyphicons-social-22-github.png"></li></div>
+	<div><li><a href = "contact.php"><img src="glyphicons-social-14-e-mail-envelope.png"></a></li></div>
+	<div><li><a href = "disclaimer.php">Disclaimer</a></li></div>
 	<div class = "computer"><img src="logo.png"></div>
 	<div class = "jshs"><img src = "jshslogo.png"></div>
 

@@ -6,16 +6,16 @@ def game_over():
     return 1
   if letter == "n":
     exit()
-    
-    
-#variables: player's HP, player's attack, player's defense, monster's HP, monster's attack, monster's defense, monster's name, if you can run or not (1 for yes, 0 for no)  
+
+
+#variables: player's HP, player's attack, player's defense, monster's HP, monster's attack, monster's defense, monster's name, if you can run or not (1 for yes, 0 for no)
 def fight(Player, Monster):
   Php = Player["hp"]
   Patk = Player["atk"]
-  Pdef = Player["def"] 
+  Pdef = Player["def"]
   Mhp = Monster["hp"]
   Matk = Monster["atk"]
-  Mdef = Monster["def"] 
+  Mdef = Monster["def"]
   enemy = Monster["name"]
   canrun = Monster["canrun"]
   print("Fight!")
@@ -63,11 +63,11 @@ def fight(Player, Monster):
   if Mhp <= 0:
     print("You win the battle!")
     return 2, Php
-    
+
 def CharacterCreate():
   Pname = input("Welcome to character creation! To get started, what would you like to be called?")
 
-    
+
 #example fight: fight(Php, Patk, Pdef, 20, 5, 2, Giant Spider, 1)
 
 #Delete code below to create own fights, this is just an example
@@ -89,7 +89,7 @@ Player = {
 '''
 standardized enemy:
 
-replace stuff in brackets ([]) 
+replace stuff in brackets ([])
 
 [Enemy_Name] = {
   "hp" : [number],
@@ -109,8 +109,3 @@ placeholder, Player["hp"] = fight(Player, [Enemy_Name])
 
 
 placeholder, Player["hp"] = fight(Player, Giant_Spider)
-
-
-
-
-

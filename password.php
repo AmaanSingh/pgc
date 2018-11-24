@@ -3,9 +3,8 @@
 <head>
 	<title>Programmer's Club</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
-	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://use.typekit.net/njb6zth.css">
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({
     google_ad_client: "ca-pub-1629224702105865",
@@ -59,26 +58,26 @@
 	<img src = "logo.png">
 </div>
 		<ul>
-			<li><a href ="index.html">HOME</a></li>
-			<li><a href ="projects.html">PROJECTS</a></li>
-			<li><a href ="contact.html">CONTACT</a></li>
-			<button class = "navy"><a href ="index.html"> Contact Us</a></button>
-
+			<li><a href ="index.php">HOME</a></li>
+			<li><a href ="projects.php">PROJECTS</a></li>
+			<li><a href ="contact.php">CONTACT</a></li>
+			<button class = "navy"><a href ="contact.php"> Contact Us</a></button>
 		</ul>
 </div>
-	<div class = "game">
-		<iframe height="450px" width="123%" src="https://repl.it/@amaansingh160/fight-game?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+	</nav>
+<div class = "game">
+  <iframe height="450px" width="123%" src="https://repl.it/@amaansingh160/passwordgenerator?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+</div>
+<div class = "Battle">
+ <h1> Password Generator created by Amaan Singh </h1>
 </div>
 <div class = "Sign">
 	<h1> PGC</h1>
 </div>
-<div class = "Battle">
- <h1> Battle Tank Game by: Alex Stavedahl of the Programmer's Club </h1>
-</div>
 <div class = "footer">
-	<div><li><a href = "https://bit.ly/2D9ypI0"><img src="glyphicons-social-22-github.png"></li></div>
-	<div><li><a href = "contact.html"><img src="glyphicons-social-14-e-mail-envelope.png"></a></li></div>
-	<div><li><a href = "disclaimer.html">Disclaimer</a></li></div>
+	<div><li><a href = "https://github.com/AmaanSingh"><img src="glyphicons-social-22-github.png"></li></div>
+	<div><li><a href = "contact.php"><img src="glyphicons-social-14-e-mail-envelope.png"></a></li></div>
+	<div><li><a href = "disclaimer.php">Disclaimer</a></li></div>
 	<div class = "computer"><img src="logo.png"></div>
 	<div class = "jshs"><img src = "jshslogo.png"></div>
 

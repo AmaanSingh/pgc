@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<link rel="stylesheet" href="https://use.typekit.net/njb6zth.css">
-	<?php include('contact_me.php'); ?>
+	<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
 	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
@@ -23,10 +23,10 @@
 <div class = "logo">
 	<img src = "logo.png">
 		<ul>
-			<li><a href ="index.html">HOME</a></li>
-			<li><a href ="projects.html">PROJECTS</a></li>
-			<li><a href ="contact.html">CONTACT</a></li>
-			<button class = "navy"><a href ="contact.html"> Contact Us</a></button>
+			<li><a href ="index.php">HOME</a></li>
+			<li><a href ="projects.php">PROJECTS</a></li>
+			<li><a href ="contact.php">CONTACT</a></li>
+			<button class = "navy"><a href ="https://github.com/AmaanSingh"> Contact Us</a></button>
 		</ul>
 </div>
 </div>
@@ -40,13 +40,7 @@
 
 	<h2> We meet in Mr. Bender's Room (34) at lunch. We meet every other Tuesday, alternating with the science club, and we meet every Thursday.</h2>
 </div>
-
-<div class = "Sign">
-	<h1> PGC</h1>
-</div>
-<div>
-<h1>Elegant Contact Form</h1>
-<div id="contact" action="<?_SERVER['PHP_SELF']; ?>" method="post">
+<div id="contact" action="contact.php" method="post">
   <div class="container">
     <div class="col-md-8">
       <div class="row">
@@ -78,11 +72,38 @@
         </form>
       </div>
     </div>
+
+<div class = "Sign">
+	<h1> PGC</h1>
 </div>
+<?php
+ // Check for empty fields
+ if(empty($_POST['name'])  		||
+   empty($_POST['email']) 		||
+   empty($_POST['message'])	||
+   !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
+   {
+	echo "No arguments Provided!";
+	return false;
+   }
+
+ $name = $_POST['name'];
+ $email_address = $_POST['email'];
+ $message = $_POST['message'];
+
+ // Create the email and send the message
+ $to = 'yourname@yourdomain.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
+ $email_subject = "Website Contact Form:  $name";
+ $email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nMessage:\n$message";
+ $headers = "From: noreply@yourdomain.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
+ $headers .= "Reply-To: $email_address";
+ mail($to,$email_subject,$email_body,$headers);
+ return true;
+?>
 <div class = "footer">
-	<div><li><a href = "https://bit.ly/2D9ypI0"><img src="glyphicons-social-22-github.png"></li></div>
-	<div><li><a href = "contact.html"><img src="glyphicons-social-14-e-mail-envelope.png"></a></li></div>
-	<div><li><a href = "disclaimer.html">Disclaimer</a></li></div>
+	<div><li><a href = "https://github.com/AmaanSingh"><img src="glyphicons-social-22-github.png"></li></div>
+	<div><li><a href = "contact.php"><img src="glyphicons-social-14-e-mail-envelope.png"></a></li></div>
+	<div><li><a href = "disclaimer.php">Disclaimer</a></li></div>
 	<div class = "computer"><img src="logo.png"></div>
 	<div class = "jshs"><img src = "jshslogo.png"></div>
 </div>
