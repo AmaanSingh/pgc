@@ -53,8 +53,8 @@
 	<img src="san.jpg">
 	<h1> Our Team Works to help </h1>
 	<div class = "box">
-		<div><button class = "box"><a href ="projects.html"> <h1>Projects</h1> The code that we have created in our club. This code was added to the website to help you create these basic projects.</a></button></div>
-		<div><button class = "box"><a href = "contact.html"><h1>Contact us</h1> If you need more information on our club, just fill out this form to help us reach you.</a></button></div>
+		<div><button class = "box"><a href ="projects.php"> <h1>Projects</h1> The code that we have created in our club. This code was added to the website to help you create these basic projects.</a></button></div>
+		<div><button class = "box"><a href = "contact.php"><h1>Contact us</h1> If you need more information on our club, just fill out this form to help us reach you.</a></button></div>
 		<div><button class= "box"><a href="https://github.com/AmaanSingh"><h1>My Github</h1> If you feel the need to use the club's projects as reference to create your own projects, my github is linked.</a></button></div>
 	</div>
 </div>
