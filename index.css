@@ -753,95 +753,155 @@ ul li a:hover {
 	transform:scale(1.1);
 	transition: .5s ease;
 }
-@import "compass/css3";
-
-@import url(https://fonts.googleapis.com/css?family=Merriweather);
-$red: #e74c3c;
-
-*,
-*:before,
-*:after {
-   @include box-sizing(border-box);
+#contact {
+	padding: 100px 0 60px 0;
+	background-color: black;
+	margin-top: 5%;
+	color: rgba(255,255,255,.75);
 }
-
-h1 {
-   text-align: center;
-   color: #a8a8a8;
-   @include text-shadow(1px 1px 0 rgba(white, 1));
+#contact .section-title {
+	margin-left: 20px;
+	margin-bottom: 40px;
 }
-
-form {
-   max-width: 900px;
-   text-align: center;
-   margin: 20px auto;
- }
- 	input{
-		margin-left: -100px;
-	}
-  input, textarea {
-     border:0; outline:0;
-     padding: 1em;
-     @include border-radius(8px);
-     display: block;
-     width: 100%;
-     margin-top: 4em;
-     font-family: 'Merriweather', sans-serif;
-     @include box-shadow(0 1px 1px rgba(black, 0.1));
-     resize: none;
-
-    &:focus {
-       @include box-shadow(0 0px 2px rgba($red, 1)!important);
-    }
-  }
-
-  #input-submit {
-     color: white;
-     background: #FF3427;
-     cursor: pointer;
-		 width: 1075px;
-
-    &:hover {
-       @include box-shadow(0 1px 1px 1px rgba(#aaa, 0.6));
-    }
-  }
-
-  textarea {
-      height: 226px;
-			margin: 20px 40px;
-  }
+#contact .section-title p {
+	font-size: 16px;
 }
-
-
-.half {
-  float: left;
-  width: 48%;
-  margin-bottom: 1em;
+#contact h2 {
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
 }
-
-.right { width: 50%; }
-
-.left {
-     margin-right: 2%;
+#contact .section-title h2::after {
+	position: absolute;
+	content: "";
+	background: rgba(255,255,255,.3);
+	height: 4px;
+	width: 60px;
+	bottom: 0;
+	left: 30px;
 }
-
-
-@media (max-width: 480px) {
-  .half {
-     width: 100%;
-     float: none;
-     margin-bottom: 0;
-  }
+#contact h3 {
+	color: #fff;
+	margin-top: 80px;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+	font-weight: 400;
 }
-
-
-/* Clearfix */
-.cf:before,
-.cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+#contact form {
+	padding-top: 20px;
+	width: 1000px;
+	margin-left: 30px;
 }
-
-.cf:after {
-    clear: both;
+#contact .text-danger {
+	color: #cc0033;
+	text-align: left;
+	padding: 20px;
 }
+#contact .btn-custom {
+	margin: 30px 0;
+	background: #FF3427;
+	border: 2px;
+	color: white;
+	border-radius: 4px;
+	width: 150px;
+	height: 40px;
+	margin-left: 87%;
+
+}
+#contact .btn-custom:hover {
+	color: #000078;
+	background: #fff;
+}
+label {
+	font-size: 12px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	float: left;
+}
+#contact .form-control {
+	display: block;
+	width: 100%;
+	padding: 6px 12px;
+	font-size: 16px;
+	line-height: 1.42857143;
+	color: #444;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ddd;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: none;
+	-o-transition: none;
+	transition: none;
+	border-radius: 5px;
+}
+#contact .form-control:focus {
+	border-color: #999;
+	outline: 0;
+	-webkit-box-shadow: transparent;
+	box-shadow: transparent;
+}
+.form-control::-webkit-input-placeholder {
+color: #777;
+}
+.form-control:-moz-placeholder {
+color: #777;
+}
+.form-control::-moz-placeholder {
+color: #777;
+}
+.form-control:-ms-input-placeholder {
+color: #777;
+}
+#contact .contact-item {
+	margin: 20px 0;
+}
+#contact .contact-item span {
+	color: rgba(255,255,255,1);
+	margin-bottom: 10px;
+	display: block;
+}
+#contact .contact-item i.fa {
+	margin-right: 10px;
+}
+#contact .social {
+	border-top: 1px solid rgba(255,255,255,0.15);
+	padding-top: 50px;
+	margin-top: 50px;
+	text-align: center;
+}
+#contact .social ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+#contact .social i.fa {
+	font-size: 22px;
+	width: 48px;
+	height: 48px;
+	padding: 12px 0;
+	border: 2px solid #fff;
+	color: #fff;
+	border-radius: 50%;
+	transition: all 0.3s;
+}
+#contact .social i.fa:hover {
+	color: #608dfd;
+	background: #fff;
+}
+#footer {
+	background: #f6f6f6;
+	padding: 30px 0;
+	margin-top: 10%;
+}
+#footer p {
+	color: #888;
+	font-size: 14px;
+}
+#footer a {
+	color: #608dfd;
+}
+#footer a:hover {
+	border-bottom: 2px solid #608dfd;
 }
