@@ -77,7 +77,15 @@
 <div class = "Sign">
 	<h1> PGC</h1>
 </div>
+<div class = "footer">
 
+	<div><li><a href = "https://github.com/AmaanSingh"><img src="glyphicons-social-22-github.png"></li></div>
+	<div><li><a href = "contact.php"><img src="glyphicons-social-14-e-mail-envelope.png"></a></li></div>
+	<div><li><a href = "disclaimer.php">Disclaimer</a></li></div>
+	<div class = "computer"><img src="logo.png"></div>
+	<div class = "jshs"><img src = "jshslogo.png"></div>
+
+</div>
 <script type="text/javascript" src="jquery.1.11.1.js"></script>
 <script type="text/javascript" src="bootstrap.js"></script>
 <script type="text/javascript" src="SmoothScroll.js"></script>
@@ -85,9 +93,5 @@
 <script type="text/javascript" src="jqBootstrapValidation.js"></script>
 <script type="text/javascript" src="contact_me.js"></script>
 <script type="text/javascript" src="main.js"></script>
-<div id="footer">
-  <div class="container text-center">
-    <p>&copy; 2018 A-One Towing. Design by <a href="https://www.instagram.com/amaansingh160/" rel="nofollow">Amaan Singh</a></p>
-  </div>
 </body>
 </html>

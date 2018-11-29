@@ -67,6 +67,5 @@
 	<div class = "jshs"><img src = "jshslogo.png"></div>
 
 </div>
-
 </body>
 </html>
