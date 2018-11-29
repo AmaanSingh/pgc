@@ -41,7 +41,7 @@
 
 	<h2> We meet in Mr. Bender's Room (34) at lunch. We meet every other Tuesday, alternating with the science club, and we meet every Thursday.</h2>
 </div>
-<div id="contact" action="contact.php" method="post">
+<div id="contact" action="contact_me.php" method="post">
   <div class="container">
     <div class="col-md-8">
       <div class="row">
@@ -77,25 +77,6 @@
 <div class = "Sign">
 	<h1> PGC</h1>
 </div>
-<?php
-	$name = $_POST['name'];
-	$email_address = $_POST['email'];
-	$message = $_POST['message'];
-	// Create the email and send the message
-	$to = 'amaansingh160@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
-	$email_subject = "Website Contact Form:  $name";
-	$email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nMessage:\n$message";
-	$headers = "From: noreply@yourdomain.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
-	$headers .= "Reply-To: $email_address";
- // Check for empty fields
- if(empty($_POST['name']) || empty($_POST['email']) || empty($_POST['message'])	|| !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL)){
-	  echo "No arguments Provided!";
-	  return false;
-  }else {
-		mail($to,$email_subject,$email_body,$headers);
-		return true;
-	}
-?>
 
 <script type="text/javascript" src="jquery.1.11.1.js"></script>
 <script type="text/javascript" src="bootstrap.js"></script>
