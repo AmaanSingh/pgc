@@ -6,7 +6,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<link rel="stylesheet" href="https://use.typekit.net/njb6zth.css">
-	<link rel="stylesheet" type="text/css"  href="bootstrap.css">
 	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
@@ -15,6 +14,8 @@
     enable_page_level_ads: true
   });
 </script>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 </head>
 <body>
 <div id="main">
@@ -102,5 +103,12 @@
 	<div class = "computer"><img src="logo.png"></div>
 	<div class = "jshs"><img src = "jshslogo.png"></div>
 </div>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/SmoothScroll.js"></script>
+<script type="text/javascript" src="js/nivo-lightbox.js"></script>
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+<script type="text/javascript" src="contact_me.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
