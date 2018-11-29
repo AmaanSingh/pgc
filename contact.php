@@ -74,6 +74,8 @@
         </form>
       </div>
     </div>
+	</div>
+</div>
 
 <div class = "Sign">
 	<h1> PGC</h1>
