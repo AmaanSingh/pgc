@@ -22,7 +22,7 @@
 </div>
 </nav>
 <div class = "title">
-		<h1>Hello World</h1><br>
+		<h1>AMAAN SUCKS AT CODING</h1><br>
 		<p>:Being a very simple program in most programming languages, it is often used to illustrate the basic syntax of a programming language for a working program, and as such is often the very first program people write; a new world being opened for new creators.</p>
 
 
